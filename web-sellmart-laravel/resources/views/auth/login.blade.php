@@ -28,7 +28,7 @@
 
               <button class="btn btn-lg btn-secondary btn-block text-uppercase" type="submit">Login</button>
               <hr class="my-4">
-              <p>Don't Have an Account? <a href="/register">Sign Up</a></p>
+              <p>Don't Have an Account? <a href="{{ url('/register') }}">Sign Up</a></p>
               
             </form>
           </div>
